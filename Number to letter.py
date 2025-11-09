@@ -1,5 +1,6 @@
 import streamlit as st
 import inflect
+letter_exists = False
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 p = inflect.engine()
 number = st.text_input("Input your number:", "1234")
